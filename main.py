@@ -63,7 +63,7 @@ if ace in user_cards and user_score > 21 or ace in cpu_cards and cpu_score > 21:
 def another_card():
     return deal_card(cards)
 
-# Reveal computer's first card to the user.
+# Reveal User's cards and computer's first card to the user.
 print(f"Your cards : {user_cards}. Your score: {user_score}.\n")
 print(f"Computer's first card is  {cpu_cards[0]}.\n")
 
